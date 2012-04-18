@@ -11,12 +11,20 @@ Download the [production version][min] or the [development version][max].
 In your web page:
 
 ```html
-<script src="jquery.js"></script>
-<script src="dist/jquery.styleWords.min.js"></script>
+	<p>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	</p>
+	<p>
+		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+	</p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="src/jquery.styleWords.js"></script>
+
 <script>
-jQuery(function($) {
-  $.awesome(); // "awesome"
-});
+	$('p').styleWords(3, {
+		'class': 'some-class'
+	});
 </script>
 ```
 
