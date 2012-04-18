@@ -14,17 +14,12 @@ In your web page:
 	<p>
 		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
 	</p>
-	<p>
-		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-	</p>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="src/jquery.styleWords.js"></script>
 
 <script>
-	$('p').styleWords(3, {
-		'class': 'some-class'
-	});
+	$('p').styleWords();
 </script>
 ```
 
