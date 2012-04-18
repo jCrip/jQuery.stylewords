@@ -1,0 +1,29 @@
+{
+  "name": "jquery.styleWords",
+  "title": "jQuery Stylewords",
+  "description": "The best jQuery plugin ever.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jCrip/jquery.styleWords",
+  "author": {
+    "name": "Juan Cristobal Pazos",
+    "email": "juancrip@gmail.com",
+    "url": "http://pixelstorm.cl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jCrip/jquery.styleWords.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jCrip/jquery.styleWords/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL",
+      "url": "https://github.com/jCrip/jquery.styleWords/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.7"
+  },
+  "keywords": []
+}
